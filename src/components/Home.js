@@ -28,14 +28,14 @@ export default function Home(){
             <div id="About" className="bg-gray-50 py-20 xl:py-24 flex flex-col gap-24">
                 <ParagraphLayout 
                     key = "1"
-                    title= {<div>TukangTravel, <span className="text-orange-600">asisten rencana perjalanan</span> Anda</div>} 
+                    title= {<div>TukangTravel, <span className="span-text">asisten rencana perjalanan</span> Anda</div>} 
                     img = "pic.jpg"
                     desc = "TukangTravel hadir sebagai asisten virtual rencana perjalanan untuk Anda yang gemar travelling. Sebagai aplikasi yang menunjang lifestyle travelling di Indonesia, kami menyediakan informasi seputar hidden gem yang terletak di destinasi yang Anda ingin kunjungi. Kami juga menawarkan layanan rekomendasi destinasi wisata yang indah tetapi jarang dikenal masyarakat."
                     colReverse = "false"
                 />
                 <ParagraphLayout 
                     key = "2"
-                    title= {<div><span className="text-orange-600">Tak perlu lagi cemas </span> akan destinasi yang akan dikunjungi</div>} 
+                    title= {<div><span className="span-text">Tak perlu lagi cemas </span> akan destinasi yang akan dikunjungi</div>} 
                     img = "pic.jpg"
                     desc = "Rasa cemas akan destinasi wisata yang akan dikunjungi pasti merupakan momok bagi setiap traveler. Untuk itu, kami memberikan layanan untuk menentukan destinasi wisata yang tepat bagi Anda dan mengakomodasi setiap kebutuhan travelling Anda supaya liburan Anda nyaman dan lancar tanpa rasa cemas."
                     colReverse = "true"

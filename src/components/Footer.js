@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png"
+import logo from "../assets/new_logo.png"
 import appStoreBadge from "../assets/app-store-badge.png"
 import googlePlayBadge from "../assets/google-play-badge.png"
 
@@ -37,7 +37,7 @@ export default function Footer(){
                 {/* Bottom section */}
                 <div className="flex items-center justify-between pt-4 pb-6 flex-col xs:flex-row gap-1 xs:gap-0">
                     <div className="flex gap-1">
-                        <a className="flex gap-1 items-center hover:text-orange-600" href="https://instagram.com/tukangtravel.id">
+                        <a className="flex gap-1 items-center" href="https://instagram.com/tukangtravel.id">
                             <i className="text-xl text-gray- ri-instagram-line"></i> 
                             <p>tukangtravel.id</p>
                         </a>

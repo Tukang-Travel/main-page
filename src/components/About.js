@@ -14,7 +14,7 @@ export default function About(){
                 <b>TukangTravel</b> merupakan sebuah aplikasi yang menyediakan akses informasi bagi masyarakat untuk menemukan tempat-tempat unik dari destinasi wisata yang akan mereka kunjungi nantinya. Sebagai aplikasi yang menunjang lifestyle travelling di Indonesia, kami menyediakan informasi seputar hidden gem yang terletak di destinasi yang Anda ingin kunjungi. Kami juga menawarkan layanan rekomendasi destinasi wisata yang indah tetapi jarang dikenal masyarakat. TukangTravel juga menawarkan tour guide untuk melengkapi para traveler yang membutuhkan bantuan pada saat berada di destinasi tujuannya.
                 </p>
                 
-                <p>Travelling, <b className="text-orange-600">TukangTravel</b> solusinya.</p>
+                <p>Travelling, <b className="span-text">TukangTravel</b> solusinya.</p>
             </div>
         </div>
     )

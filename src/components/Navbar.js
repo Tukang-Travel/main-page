@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom";
 import "../style.css"
-import logo from "../assets/logo.png"
+import logo from "../assets/new_logo.png"
 
 export default function Navbar(){
     const toggleNavbar = (e)=>{
@@ -17,11 +17,11 @@ export default function Navbar(){
     }
 
     return(
-        <nav className="bg-white shadow-md fixed w-full z-50">
+        <nav className="bg-white shadow-md w-full z-50 navbar">
             <div className="wrapper flex justify-between py-3 items-center">
                 <div className="w-fit">
                     <Link to="/">
-                        <img src={logo} alt="Logo" className="h-10 md:h-12"/>
+                        <img src={logo} alt="Logo" className="h-10 md:h-12 logo"/>
                     </Link>
                 </div>
                 <ul className="hidden md:block list-none">
@@ -38,10 +38,10 @@ export default function Navbar(){
             </div>
             <div id="hidden-nav" className="wrapper transition-[max-height] duration-500 ease-in-out overflow-hidden max-h-0">
                 <ul className="list-none pt-4 pb-6">
-                    <li class="leading-loose"><a href="/">Home</a></li>
-                    <li class="leading-loose"><a href="/about">About Us</a></li>
-                    <li class="leading-loose"><a href="/#Join">Join Us</a></li>
-                    <li class="leading-loose"><a href="/contact">Contacts</a></li>    
+                    <li className="leading-loose"><a href="/">Home</a></li>
+                    <li className="leading-loose"><a href="/about">About Us</a></li>
+                    <li className="leading-loose"><a href="/#Join">Join Us</a></li>
+                    <li className="leading-loose"><a href="/contact">Contacts</a></li>    
                 </ul>  
             </div>
         </nav>
